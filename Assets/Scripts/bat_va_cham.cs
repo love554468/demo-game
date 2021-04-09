@@ -22,6 +22,12 @@ public class bat_va_cham : MonoBehaviour
             // Destroy(gameObject);
             Debug.Log("Qua bong va cham voi gia do");
         }
+
+        if(other.gameObject.CompareTag("bong"))
+        {
+            m_gc.IncrementScore();
+            Destroy(gameObject);
+        }
     }
 
     // phai set thuoc tinh cua vat the DeathZone trong commpont Box col... is Trigger (xuyen qua)

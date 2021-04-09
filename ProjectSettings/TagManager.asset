@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - DeathZone
+  - obj
+  - bong
   layers:
   - Default
   - TransparentFX

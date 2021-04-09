@@ -26,18 +26,18 @@ public class GameController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        m_spawnTime -= Time.deltaTime;
-        if(m_isGameOver)
-        {
-            m_ui.ShowGameOverPanel(true);
-            return;
-        }
-        if(m_spawnTime < 0)
-        {
-            // Debug.Log("chay vo trong");
-            SpawnBall();
-            m_spawnTime = spawnTime;
-        }
+        // m_spawnTime -= Time.deltaTime;
+        // if(m_isGameOver)
+        // {
+        //     m_ui.ShowGameOverPanel(true);
+        //     return;
+        // }
+        // if(m_spawnTime < 0)
+        // {
+        //     // Debug.Log("chay vo trong");
+        //     SpawnBall();
+        //     m_spawnTime = spawnTime;
+        // }
         // Debug.Log(m_spawnTime);
     }
 
